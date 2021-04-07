@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		093241BC25C60314004C7262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093241BB25C60314004C7262 /* AppDelegate.swift */; };
-		093241BE25C60314004C7262 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093241BD25C60314004C7262 /* ViewController.swift */; };
 		093241C125C60314004C7262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093241BF25C60314004C7262 /* Main.storyboard */; };
 		093241C325C60316004C7262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093241C225C60316004C7262 /* Assets.xcassets */; };
 		093241C625C60316004C7262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093241C425C60316004C7262 /* LaunchScreen.storyboard */; };
 		093241D125C60316004C7262 /* PensamentosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093241D025C60316004C7262 /* PensamentosTests.swift */; };
+		093241DD25C60552004C7262 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 093241DB25C60551004C7262 /* quotes.json */; };
+		093241DE25C60552004C7262 /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 093241DC25C60551004C7262 /* Savoye LET.ttc */; };
+		0932C2D8261E4E510079CCF6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0932C2D7261E4E510079CCF6 /* Settings.bundle */; };
+		096F63872615594F002A44C4 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F63862615594F002A44C4 /* QuotesViewController.swift */; };
+		096F6389261559A6002A44C4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F6388261559A6002A44C4 /* SettingsViewController.swift */; };
+		096F638D2615672E002A44C4 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F638C2615672E002A44C4 /* Quote.swift */; };
+		096F638F26156796002A44C4 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F638E26156796002A44C4 /* QuotesManager.swift */; };
+		096F6391261567BD002A44C4 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F6390261567BD002A44C4 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +35,6 @@
 /* Begin PBXFileReference section */
 		093241B825C60314004C7262 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		093241BB25C60314004C7262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		093241BD25C60314004C7262 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		093241C025C60314004C7262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		093241C225C60316004C7262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		093241C525C60316004C7262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +42,14 @@
 		093241CC25C60316004C7262 /* PensamentosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PensamentosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		093241D025C60316004C7262 /* PensamentosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PensamentosTests.swift; sourceTree = "<group>"; };
 		093241D225C60316004C7262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093241DB25C60551004C7262 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		093241DC25C60551004C7262 /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
+		0932C2D7261E4E510079CCF6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Pensamentos/Settings.bundle; sourceTree = SOURCE_ROOT; };
+		096F63862615594F002A44C4 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		096F6388261559A6002A44C4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		096F638C2615672E002A44C4 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		096F638E26156796002A44C4 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		096F6390261567BD002A44C4 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +91,13 @@
 		093241BA25C60314004C7262 /* Pensamentos */ = {
 			isa = PBXGroup;
 			children = (
-				093241BB25C60314004C7262 /* AppDelegate.swift */,
-				093241BD25C60314004C7262 /* ViewController.swift */,
-				093241BF25C60314004C7262 /* Main.storyboard */,
-				093241C225C60316004C7262 /* Assets.xcassets */,
-				093241C425C60316004C7262 /* LaunchScreen.storyboard */,
+				093241DF25C60559004C7262 /* Files */,
+				09347BDB261BDF9600808C34 /* Models */,
+				096F638B261559EC002A44C4 /* Views */,
+				096F638A261559D4002A44C4 /* Controllers */,
 				093241C725C60316004C7262 /* Info.plist */,
+				093241C225C60316004C7262 /* Assets.xcassets */,
+				0932C2D7261E4E510079CCF6 /* Settings.bundle */,
 			);
 			path = Pensamentos;
 			sourceTree = "<group>";
@@ -94,6 +109,44 @@
 				093241D225C60316004C7262 /* Info.plist */,
 			);
 			path = PensamentosTests;
+			sourceTree = "<group>";
+		};
+		093241DF25C60559004C7262 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				093241DB25C60551004C7262 /* quotes.json */,
+				093241DC25C60551004C7262 /* Savoye LET.ttc */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		09347BDB261BDF9600808C34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				096F638C2615672E002A44C4 /* Quote.swift */,
+				096F638E26156796002A44C4 /* QuotesManager.swift */,
+				096F6390261567BD002A44C4 /* Configuration.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		096F638A261559D4002A44C4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				093241BB25C60314004C7262 /* AppDelegate.swift */,
+				096F63862615594F002A44C4 /* QuotesViewController.swift */,
+				096F6388261559A6002A44C4 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		096F638B261559EC002A44C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				093241BF25C60314004C7262 /* Main.storyboard */,
+				093241C425C60316004C7262 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,8 +230,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093241DD25C60552004C7262 /* quotes.json in Resources */,
 				093241C625C60316004C7262 /* LaunchScreen.storyboard in Resources */,
 				093241C325C60316004C7262 /* Assets.xcassets in Resources */,
+				093241DE25C60552004C7262 /* Savoye LET.ttc in Resources */,
+				0932C2D8261E4E510079CCF6 /* Settings.bundle in Resources */,
 				093241C125C60314004C7262 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,8 +253,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				093241BE25C60314004C7262 /* ViewController.swift in Sources */,
+				096F6391261567BD002A44C4 /* Configuration.swift in Sources */,
+				096F638F26156796002A44C4 /* QuotesManager.swift in Sources */,
+				096F638D2615672E002A44C4 /* Quote.swift in Sources */,
+				096F63872615594F002A44C4 /* QuotesViewController.swift in Sources */,
 				093241BC25C60314004C7262 /* AppDelegate.swift in Sources */,
+				096F6389261559A6002A44C4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +430,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = KST.Pensamentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -388,7 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = KST.Pensamentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
